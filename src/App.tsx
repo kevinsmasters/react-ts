@@ -1,4 +1,5 @@
 import './App.css';
+import { ButtonE } from './components/ButtonE';
 import { Greet } from './components/Greet';
 import { Heading } from './components/Heading';
 import { Oscar } from './components/Oscar';
@@ -32,7 +33,7 @@ function App() {
       {/* 
       <Person name={personName} />
       <PersonList names={nameList} /> */}
-      <Status status='success' />
+      {/* <Status status='success' />
       <Heading>Placeholder text</Heading>
       <Oscar>
         <Heading>Oscar goes to Your Mom!</Heading>
@@ -41,7 +42,10 @@ function App() {
         name='Meowdy!' 
         messageCount={69} 
         isLoggedIn={true}  
-      />
+      /> */}
+      <ButtonE handleClick={(event, id) => {
+        console.log('Button clicked', event, id)
+      }} />
     </div>
   );
 }
