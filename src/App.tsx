@@ -1,6 +1,7 @@
 import './App.css';
 import { Greet } from './components/Greet';
 import { Person } from './components/Person';
+import { Status } from './components/Status';
 import { PersonList } from './PersonList';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       />
       <Person name={personName} />
       <PersonList names={nameList} />
+      <Status status='success' />
     </div>
   );
 }
