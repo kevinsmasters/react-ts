@@ -29,11 +29,7 @@ function App() {
   
   return (
     <div className="App">
-      {/* <Greet 
-        name='Meowdy!' 
-        messageCount={13} 
-        isLoggedIn={false}  
-      />
+      {/* 
       <Person name={personName} />
       <PersonList names={nameList} /> */}
       <Status status='success' />
@@ -41,6 +37,11 @@ function App() {
       <Oscar>
         <Heading>Oscar goes to Your Mom!</Heading>
       </Oscar>
+      <Greet 
+        name='Meowdy!' 
+        messageCount={69} 
+        isLoggedIn={true}  
+      />
     </div>
   );
 }
