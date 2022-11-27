@@ -1,12 +1,13 @@
 import './App.css';
 import { Container } from './components/Container';
+import { Greet } from './components/Greet';
 
 function App() {
   
   
   return (
     <div className="App">
-      <Container styles={{ border: '1px solid black', padding: '1rem'}} />
+      <Greet name={'Bob Bober'} isLoggedIn={true} messageCount={7} />
     </div>
   );
 }
